@@ -1,0 +1,34 @@
+{
+  "printWidth": 120,
+
+  "useTabs": false,
+  "tabWidth": 2,
+
+  "semi": true,
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+
+  "endOfLine": "lf",
+
+  "htmlWhitespaceSensitivity": "css",
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+
+  "trailingComma": "es5",
+
+  "importOrder": ["^@?bluelibs/(.*)$", "^@?bundles/(.*)$", "^startup/(.*)$", "^lib/(.*)$", "^(.*).scss$"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+
+  "parser": "babel-ts",
+  "overrides": [
+    {
+      "files": "*.{css,scss}",
+      "options": { "parser": "scss" }
+    }
+  ]
+}
